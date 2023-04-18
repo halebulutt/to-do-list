@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+form,span{
+    margin: auto;
+    width: 80%;
+    border: thin solid rgb(163, 19, 115);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
+input[type=button],input[type=text]{
+
+    margin: 0.25rem;
+}
+select{
+    max-width: 150px;
+    margin: 0.25rem;
+    
+}
+h3,h4,h5,li{
+    text-align: center;
+    list-style: none;
+}
+
+h4 {
+    color:  rgb(163, 19, 115);
+}
+
+li {
+    color:rgb(12, 112, 158)
+}
+.baslik{
+    background: url(images/boy.png) no-repeat 20% center/5%,url(images/girl.png) no-repeat 85% center/10%;
+    display: block;
+    width: 80%;
+    line-height: 60px;
+    border: thin solid rgb(163, 19, 115);
+    margin: auto;
+    padding: 25px 0;
+    color: rgb(163, 19, 115);
+    font-weight: bolder;
+
+}
+
+form>label{
+    border-right: thin solid rgb(163, 19, 115);
+    border-bottom: thin solid rgb(163, 19, 115);
+}
+
+
+
+li img{
+    width: 1rem;
+    height: 1rem;
+    margin: 0 0.25rem;
+}
+#btnEkle{
+    background-color:rgba(13, 153, 218, 0.377);
+    border-color:rgb(12, 112, 158);
+    color: rgb(163, 19, 115);
+}
